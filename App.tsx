@@ -26,6 +26,7 @@ export default function App() {
         placeholderTextColor="#94a3b8"
         value={email}
         onChangeText={setEmail}
+        testID="input-email"
       />
       <TextInput
         style={styles.input}
@@ -34,12 +35,14 @@ export default function App() {
         placeholderTextColor="#94a3b8"
         value={password}
         onChangeText={setPassword}
+        testID="input-password"
       />
 
       <TouchableOpacity
         style={styles.button}
         activeOpacity={0.7}
         onPress={handleSignIn}
+        testID="button-signIn"
       >
         <Text style={styles.buttonTitle}>Entrar</Text>
       </TouchableOpacity>

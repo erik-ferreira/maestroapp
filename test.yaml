@@ -1,0 +1,16 @@
+appId: com.erikferreira.maestroapp
+---
+- openLink: exp://127.0.0.1:8081
+- tapOn:
+    id: input-email
+- inputText: "erik@gmail.com"
+- tapOn:
+    id: input-password
+- inputText: "1104"
+    length: 6
+- hideKeyboard
+
+- tapOn:
+    id: button-signIn
+
+- assetVisible: "Acesso liberado!"
